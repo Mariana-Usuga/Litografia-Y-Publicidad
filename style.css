@@ -1,0 +1,22 @@
+.gallery{
+    text-align: center;
+}
+.img-gallery{
+    width: 30%;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 2%;
+}
+.imagen-light{
+    text-align: center;
+    position: flex;
+    width: 100%;
+    height: 100%;
+    transform: translate(100%);
+}
+.showImg{
+    transform:scale(1)
+}
+.show{
+    transform:translate(0)
+}
