@@ -9,14 +9,28 @@
 }
 .imagen-light{
     text-align: center;
-    position: flex;
     width: 100%;
     height: 100%;
-    transform: translate(100%);
+    visibility: hidden;
+    position:absolute;
+    top: 10%;
+}
+.img-1{
+    width: 50%;
+}
+.close{
+    background-color: brown;
+    width: 10%;
+    cursor: pointer;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
 }
 .showImg{
-    transform:scale(1)
+    visibility: visible;
+    position: fixed;
 }
-.show{
-    transform:translate(0)
+.gallery{
+    background-color:coral;
 }
