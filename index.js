@@ -12,17 +12,3 @@ $(".close").click(function(){
     $(".imagen-light").removeClass("showImg")
 });
 
-
-
-
-
-
-/*function showImg(id){
-    switch(id){
-        case 'img1':
-
-    }
-    $("img").attr("src","img/"+id+".png")
-
-    
-}*/

@@ -4,6 +4,7 @@ nav{
 }
 
 
+/*---------WebSite Main-------*/
 .main-img{
     text-align: right;
     padding: 15% 5% 15% 45%;
@@ -12,8 +13,10 @@ nav{
     color: #fff;
     font-size: 1.3rem;
 }
+/*---------Servicios-------*/
 .gallery{
     text-align: center;
+    background-color: aqua;
 }
 .img-gallery{
     width: 30%;
@@ -44,7 +47,4 @@ nav{
 }
 .showImg{
     visibility: visible;
-}
-.gallery{
-    background-color:aqua;
 }
