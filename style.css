@@ -1,3 +1,17 @@
+nav{
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    font-size: 1.5rem;
+}
+
+
+.main-img{
+    text-align: right;
+    padding: 15% 5% 15% 45%;
+    background-image: linear-gradient(to right, rgba(107, 17, 203, 0.5) 0%, rgba(37, 116, 252, 0.507) 100%), url("img/img2.png");
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 1.3rem;
+}
 .gallery{
     text-align: center;
 }
