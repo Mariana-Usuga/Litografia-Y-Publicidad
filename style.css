@@ -14,12 +14,15 @@ nav{
     font-size: 1.3rem;
 }
 /*---------Servicios-------*/
+.services{
+    padding:30px 0;
+}
 .gallery{
     text-align: center;
     background-color: aqua;
 }
 .img-gallery{
-    width: 30%;
+    width: 15%;
     margin: 5px;
     cursor: pointer;
     border-radius: 2%;
@@ -47,4 +50,12 @@ nav{
 }
 .showImg{
     visibility: visible;
+}
+/*---------Company-----*/
+#company{
+    margin-top: 5%;
+}
+.company_item{
+    font-size: 10rem;
+    text-align: center;
 }
