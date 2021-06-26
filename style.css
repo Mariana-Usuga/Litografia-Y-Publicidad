@@ -53,9 +53,22 @@ nav{
 }
 /*---------Company-----*/
 #company{
-    margin-top: 5%;
+    margin:5% 0 3% 0;
 }
 .company_item{
     font-size: 10rem;
     text-align: center;
+}
+/*--------Contact--------*/
+#contact{
+    margin:8% 0;
+}
+#contact h2{
+    text-align: center;
+}
+div input{
+    margin:2%;
+}
+.form-group{
+    font-size: 2rem;
 }
