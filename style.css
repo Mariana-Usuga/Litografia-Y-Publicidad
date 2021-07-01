@@ -22,7 +22,7 @@ nav{
     background-color: aqua;
 }
 .img-gallery{
-    width: 30%;
+    width: 20%;
     margin: 5px;
     cursor: pointer;
     border-radius: 2%;
@@ -35,9 +35,10 @@ nav{
     text-align: center;
     top:0;
     visibility: hidden;
+    z-index: 10;
 }
 .img-1{
-    width: 50%;
+    width: 43%;
     margin-top: 50px;
     border-radius: 2%;
 }
