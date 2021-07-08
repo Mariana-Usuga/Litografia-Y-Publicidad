@@ -1,23 +1,33 @@
+.contacts{
+    margin:5px;
+    font-size:1.2rem; 
+    margin-left: 30%;
+}
 nav{
     /*background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);*/
     background-color: #fff;
    /* background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);*/
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 .logo{
-    width: 17%;
+    width: 13%;
+    padding: 0;
+    margin: 0;
 }
-.wpp{
+.icon-wpp{
     margin-top: 2%;
-    font-size: 40px;
+    font-size: 20px;
     color:#fff;
     background-color: rgb(31, 231, 31);
     border-radius: 100px;
-    padding:4.5px;
 }
-.email{
-    font-size: 40px;
+.icon-email{
+    font-size: 20px;
     color: blue;
+    padding: 2px;
+}
+.wpp, .email{
+    border-right: solid 2px ;
 }
 /*---------WebSite Main-------*/
 .main-img{
