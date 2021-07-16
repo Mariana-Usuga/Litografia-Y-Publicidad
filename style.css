@@ -4,10 +4,10 @@
     margin-left: 30%;
 }
 nav{
-    /*background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);*/
-    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
-   /* background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);*/
+    /*background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);*/
     font-size: 1.4rem;
+    color: #fff;
+    background-color: rgb(48, 48, 184);
 }
 .logo{
     width: 70px;
