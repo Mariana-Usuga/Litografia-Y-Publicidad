@@ -1,10 +1,15 @@
+body{
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
 .contacts{
     margin:5px;
     font-size:1.2rem; 
     margin-left: 30%;
 }
 nav{
-    /*background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);*/
     font-size: 1.4rem;
     color: #fff;
     background-color: rgb(48, 48, 184);
@@ -45,12 +50,12 @@ nav{
     font-size: 1.3rem;
 }
 /*---------Servicios-------*/
-.gallery{
+#gallery{
     text-align: center;
     padding: 20px 0 20px 0;
 }
 .img-gallery{
-    width: 23%;
+    width: 50%;
     margin: 20px;
     cursor: pointer;
     border-radius: 2%;
@@ -83,9 +88,10 @@ nav{
 }
 /*---------Company-----*/
 #company{
-    margin:5% 0 3% 0;
     background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
-        padding: 50px 0 50px 0;
+    padding: 50px 0 50px 0;
+    text-align: center;
+
 }
 .company_item{
     font-size: 10rem;
